@@ -3,7 +3,7 @@ class Config:
     Use this class to share any default attributes with any subsequent
     classes that inherit from Config.
     """
-    DEBUG = False
+    DEBUG = True
     TESTING = False
     
     # Only required when using the session object

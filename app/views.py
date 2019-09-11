@@ -12,12 +12,4 @@ def index():
     dictionary of the query string keys & values, using request.args
     """
 
-    args = None
-
-    if request.args:
-
-        args = request.args
-
-        return render_template("public/index.html", args=args)
-
-    return render_template("public/index.html", args=args)
+    return rand.get_num()
