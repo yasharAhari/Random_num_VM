@@ -133,7 +133,7 @@ Now, install the required packages by creating and using a new virtual environme
 
   
 
-* create the Virtual environment
+* create the Virtual environment and call it ```env```
 
   ```shell
   python -m venv env
@@ -142,7 +142,7 @@ Now, install the required packages by creating and using a new virtual environme
   and activate it: 
 
   ```shell
-  source /home/<your_username>/APYZ_Random_PVM/RandomNumberGen/bin/activate
+  source /home/<your_username>/APYZ_Random_PVM/RandomNumberGen/env/bin/activate
   ```
 
 * Upgrade the pip
