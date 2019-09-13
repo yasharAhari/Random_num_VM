@@ -194,9 +194,9 @@ Now you need to:
   [Service]
   User=<your_username>
   Group=www-data
-  WorkingDirectory=/home/<your_username>/APYZ_Random_PVM/RandomNumberGen/app
-  Environment="PATH=/home/<your_username>/APYZ_Random_PVM/RandomNumberGen/app/env/bin"
-  ExecStart=/home/<your_username>/APYZ_Random_PVM/RandomNumberGen/app/env/bin/uwsgi --ini app.ini
+  WorkingDirectory=/home/<your_username>/APYZ_Random_PVM/RandomNumberGen/
+  Environment="PATH=/home/<your_username>/APYZ_Random_PVM/RandomNumberGen/env/bin"
+  ExecStart=/home/<your_username>/APYZ_Random_PVM/RandomNumberGen/env/bin/uwsgi --ini app.ini
   
   [Install]
   WantedBy=multi-user.target
