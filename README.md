@@ -188,7 +188,7 @@ Now you need to:
 
   ```
   [Unit]
-  Description=A simple Flask uWSGI application
+  Description=Random Number Gen
   After=network.target
   
   [Service]
