@@ -30,7 +30,7 @@ Sign in to your google cloud account and go to the console.
 
   | ⚠️ **Warning**:                                               |
   | ------------------------------------------------------------ |
-  | The choice of machine type will effect the cost of the operation. Although you may choose any machine configuration, our suggestion is to use Fist generation g1-small which will be sufficient. |
+  | The choice of machine type will effect the cost of the operation. Although you may choose any machine configuration, our suggestion is to use ```First generation g1-small``` which will be sufficient. |
   | We are using the `Ubuntu 16.04 LTS` for this application     |
 
 * In the `Firewall` section,  toggle the **Allow HTTP traffic** and **Allow HTTPS traffic** on.
