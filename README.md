@@ -34,7 +34,7 @@ Sign in to your google cloud account and go to the console.
   | We are using the `Ubuntu 16.04 LTS` for this application     |
 
 * In the `Firewall` section,  toggle the **Allow HTTP traffic** and **Allow HTTPS traffic** on.
-* Save and wait to VM load up.  
+* Save and wait to VM to load up.  
 
 ### Connecting to the VM
 
@@ -53,11 +53,21 @@ Sign in to your google cloud account and go to the console.
 * Install python 3.7
 
   we are using python 3.7 and  ```pyenv``` to handle python installation. For that, clone the ```pyenv``` form its git repo.
+  For that simply run following command and restart yout shell 
+  
+  ```shell
+  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+  ```
+  
+  In case this fails, you can do this manually by doing the following 2 step:
+  
 
+  1. Get pyenv
   ```shell
   git clone https://github.com/pyenv/pyenv.git ~/.pyenv
   ```
 
+  2. Configure it:
   in order to ```pyenv``` work, it need to be configured in the machine ```.bashrc ``` file. For that do the following: 
 
   ```shell
