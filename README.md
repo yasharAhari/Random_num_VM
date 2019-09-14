@@ -1,12 +1,12 @@
 
 
-## Random number generator(python) Google cloud VM instruction
+## Random number generator(python) Google cloud VM instruction (Team APYZ)
 
 This guide will focus on installing the Random number generator on google cloud VM instance.
 
 ### Description
 
-We are python Flask framework to run this application. we are also using the Nginx as the reverse proxy server and uwsgi as local WSGI and Flask framework to host our app. 
+We are using python Flask framework to run this application. we are also using the Nginx as the reverse proxy server and uwsgi as local WSGI to link the app. 
 
 #### Requirements 
 
